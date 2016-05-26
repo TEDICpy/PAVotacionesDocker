@@ -1,0 +1,4 @@
+pavot:
+  build: .
+  ports:
+    - "8999:80"
