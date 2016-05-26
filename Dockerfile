@@ -10,7 +10,6 @@ RUN git clone $REPO $CARPETA \
 
 COPY ./votacionespa_latest.sql /
 COPY ./config.sh /
-COPY ./conexion.php /app/public/server/
 
 EXPOSE 80 3306
 
