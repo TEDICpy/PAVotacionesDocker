@@ -2,3 +2,5 @@ pavot:
   build: .
   ports:
     - "8999:80"
+  volumes:
+    - /etc/localtime:/etc/localtime:ro
